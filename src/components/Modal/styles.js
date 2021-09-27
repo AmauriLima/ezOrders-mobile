@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from 'styled-components/native';
 import { Button as StyledButton } from '..';
 
 export const Container = styled.SafeAreaView`

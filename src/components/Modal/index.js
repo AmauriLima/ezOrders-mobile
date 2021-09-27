@@ -48,7 +48,7 @@ export default function Modal({ visible, onClose }) {
         <Header>
           <Logo source={logo} resizeMode="contain" />
           <TouchableOpacity onPress={onClose}>
-            <Ionicons name="close" size={24} color="#0A100D" />
+            <Ionicons name="close" size={32} color="#0A100D" />
           </TouchableOpacity>
         </Header>
 

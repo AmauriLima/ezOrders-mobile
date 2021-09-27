@@ -2,12 +2,13 @@ import React, { useState } from 'react';
 
 import { Container, Logo, NewOrderContainer } from './styles';
 
-import { Orders, Button, Modal } from './components';
+import { Orders, Button } from './components';
+import Modal from './components/Modal';
 
 import logo from './images/Logo.png';
 
 export default function Home() {
-  const [isModalOpened, setIsModalOpened] = useState(true);
+  const [isModalOpened, setIsModalOpened] = useState(false);
 
   function handleToggleModal() {
     setIsModalOpened((prevState) => !prevState);

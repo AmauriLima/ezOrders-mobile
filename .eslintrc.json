@@ -23,6 +23,8 @@
     ],
     "import/prefer-default-export": "off",
     "react/react-in-jsx-scope": "off",
-    "react/jsx-no-bind": "off"
+    "react/jsx-no-bind": "off",
+    "no-underscore-dangle": "off",
+    "react/jsx-one-expression-per-line": "off"
   }
 }
